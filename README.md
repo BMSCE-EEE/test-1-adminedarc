@@ -94,9 +94,10 @@
 	<br> Complex add_n_complex(int n, Complex c[n]);
 	<br> void output(int n, Complex c[n], Complex result);
 <br> 	input:
-	2
+	<br> 2
 	<br> 2 + 3i 
 	<br> 4 + 5i
+<br>	output:
 	<br> 2 + 3i 
 	<br> + 4 + 5i is 
 	<br> 6 + 8i
