@@ -13,7 +13,6 @@
 		<br> sum of 1+2 is 3
 	
 <br>3.	Add two numbers using 4 functions and Pass by reference
-		<br> Pass by value
 		<br> void input(int *a, int *b);
 		<br> void add(int a, int b, int *sum);
 		<br> void output(int a, int b, int sum);
