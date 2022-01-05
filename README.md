@@ -1,4 +1,4 @@
-<br> 0.	Write a program to Print your name. using > 
+<br> 0.	Write a program to Print your name.
 <br>Expression
 <br> 1.	Write a program to Add two numbers
 <br> Functions
@@ -23,9 +23,16 @@
 		<br> output:
 		<br> sum of 1+2 is 3
 
-<br> 5.	Write a program to Compare 3 numbers using 4 functions
-	<br> a.	Pass by value	     //int cmp(int a, int b, int c) -> int input ()
-	<br> b.	Pass by reference //void cmp(int a, int b, int c, int *large); -> void input (int *a, int *b)
+<br> 4.	Write a program to find largest of 3 numbers using 4 functions using Pass by value
+	<br> int input()
+	<br> int cmp(int a, int b, int c)
+	<br> void output(int a, int b, int c, int largest)
+
+<br> 5. Write a program to find largest of 3 numbers using 4 functions using pass by reference
+	<br> void input(int *a, int *b, int *c)
+	<br> int cmp(int a, int b, int c, int *largest)
+	<br> void output(int a, int b, int c, int largest)
+
 <br> 6.	Write a program to find Sum of n numbers
 	<br> a.	Sum of n numbers 
 	<br> int input_n();
@@ -35,9 +42,8 @@
 	<br> 5
 	<br> output:
 	<br> 1+2+3+4+5 is 15
-	Function Prototypes:
-<br> 7.	Write a program to find Sum of n different number
-entered by the user
+
+<br> 7.	Write a program to find Sum of n different number entered by the user
 	<br> int input_array_size();
 	<br> void input_array(int n, int a[n]);
 	<br> int sum_n_arrays(int n, int a[n]);
@@ -67,7 +73,7 @@ entered by the user
 	<br> 	float real,imaginary;
 	<br> };
 	<brtypedef _complex Complex
-	<br> Complex input_chellox(); 
+	<br> Complex input_complex(); 
 	<br> Complex add(Complex a, Complex b);
 	<br> void output(Complex a, Complex b, Complex c);
 	<br> input:
@@ -76,8 +82,8 @@ entered by the user
 	<br> output
 	<br> 2 + 3i + 4 + 5i is 6 + 8i 
 <br> 
-<br> 11. Write a program to find Sum of n complex numb<br> ers
-	<br> struct _co<br> mplex
+<br> 11. Write a program to find Sum of n complex numbers
+	<br> struct _complex
 	<br> {
 		<br> float real,imaginary;
 	<br> };
